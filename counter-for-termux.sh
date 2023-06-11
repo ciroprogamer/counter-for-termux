@@ -1,3 +1,4 @@
+#/!/bin/bash
 clear 
 echo "installing requirements" 
 (yes|apt update -y && yes|apt upgrade -y && yes|apt install -y figlet) > /dev/null 2>&1 
